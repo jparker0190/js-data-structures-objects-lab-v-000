@@ -13,7 +13,7 @@ function deleteFromDriverByKey(driver, key){
   return delete driver.key
 }
 function destructivelyDeleteFromDriverByKey(driver, key){
-  delete driver.key
+  return delete driver.key
   console.log(driver)
   return driver
 }
