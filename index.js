@@ -2,5 +2,5 @@
 function updateDriverWithKeyAndValue(driver, key, value){
   driver[key] = value
   return driver
-  console.log(typeof drive)
+  console.log(typeof driver)
 }
